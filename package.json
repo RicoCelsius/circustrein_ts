@@ -1,0 +1,27 @@
+{
+  "name": "circustrein_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicoCelsius/circustrein_ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicoCelsius/circustrein_ts/issues"
+  },
+  "homepage": "https://github.com/RicoCelsius/circustrein_ts#readme",
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "ts-jest": "^29.1.1"
+  }
+}
