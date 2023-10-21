@@ -8,5 +8,5 @@ export abstract class Animal {
     this.animalSize = animalSize;
   }
 
-  abstract willBeEaten(Carnivore: Carnivore): boolean;
+  abstract willBeEaten(Animal: Animal): boolean;
 }

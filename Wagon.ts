@@ -9,8 +9,13 @@ export class Wagon {
   constructor() {}
 
   public tryAddAnimal(animal: Animal): boolean {
-    if (this.isFull(animal) || animal.willBeEaten(this.AnimalsInWagon)) {
+    if (this.isFull(animal)) {
       return false;
+    }
+    for (let i = 0; i < this.AnimalsInWagon.length; i++) {
+      if (animal.willBeEaten(this.AnimalsInWagon[i])) {
+        return false;
+      }
     }
     this.AnimalsInWagon.push(animal);
     this.CurrentSize += animal.animalSize;
